@@ -14,7 +14,7 @@ body {
 .textItem {
     border: 1px solid green;
     border-radius: 6px;
-    width: 80%;
+    width: 50%;
     margin-bottom: 10px;
     text-align: left;
     padding: 10px;
@@ -65,7 +65,7 @@ button:active{
 }
 
 input#inputText {
-    width: 70%;
+    width: 50%;
     height: 30px;
     border-radius: 20px;
     padding: 0 10px;
