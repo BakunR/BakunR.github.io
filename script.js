@@ -59,7 +59,8 @@ window.addEventListener('DOMContentLoaded', () => {
         messageArea.innerHTML='';   
     }
 
-    addBtn.addEventListener('click', () => {
+    addBtn.addEventListener('click', (event) => {
+        event.preventDefault();
         if (inputText.value.replace(/\s/g, '').length <= 0 ){
             messageArea.innerHTML = message.error;
             inputText.focus();
