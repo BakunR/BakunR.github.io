@@ -17,6 +17,7 @@ body {
     width: 50%;
     margin-bottom: 10px;
     text-align: left;
+    word-wrap: break-word;
     padding: 10px;
     box-sizing: border-box;
     font-weight: bold;
